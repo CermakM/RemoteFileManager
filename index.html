@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote File Manager</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.css">
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div id="main_wrapper">
+        <header id="top_header">
+            <a href="index.html"><img id="sample_logo" src="images/logo.png" role="img" width="300"></a>
+        </header>
+
+        <nav id="main_menu">
+            <div id="main_nav">
+                <button><span>Home</span></button>
+                <button><span>Connect</span></button>
+                <button><span>Login</span></button>
+                <button><span>About</span></button>
+            </div>
+            <div id="f_manager_menu_icon">
+                <button onclick="invokeFManMenu()">
+                    <object type="image/svg+xml" data="images/icon_menu_mobile.svg">
+                    </object>
+                </button>
+
+                <template id="f_manager_menu_template">
+                <nav id="f_manager_menu" class="mobile">
+                    <button><span>Files</span></button>
+                    <button><span>Photos</span></button>
+                    <button><span>Music</span></button>
+                    <button><span>Video</span></button>
+                    <button><span>Fav</span></button>
+                </nav>
+                </template>
+            </div>
+
+        </nav>
+
+        <section id="f_manager">
+
+            <div id="f_manager_left_container">
+            <img src="images/icon_trash.png">
+            </div>
+
+            <div id="f_manager_window">
+                <div id="f_manager_file_menu" class="deselect_off">
+                    <div id="f_manager_file_menu_left" class="disable">
+                        <button id="download_button"><object type="image/svg+xml" data="images/icon_download.svg"></object><span>Download</span></button>
+                        <button id="upload_button"><object type="image/svg+xml" data="images/icon_upload.svg"></object><span>Upload</span></button>
+                        <button id="rename_button"><object type="image/svg+xml" data="images/icon_rename.svg"></object><span>Rename</span></button>
+                        <button id="delete_button"><object type="image/svg+xml" data="images/icon_delete.svg"></object><span>Delete</span></button>
+                        <button id="share_button"><object type="image/svg+xml" data="images/icon_share.svg"></object><span>Share</span></button>
+                    </div>
+                    <div id="f_manager_file_menu_right">
+                        <button id="select_all_button" class="deselect_off"><object type="image/svg+xml" data="images/icon_select_all.svg"></object><span>Select all</span></button>
+                    </div>
+                </div>
+                <div id="f_manager_file_explorer">
+                    <template id="file_template">
+                        <div class="file">
+                            <div class="file_icon"></div>
+                            <input type="text" class="icon_title" readonly>
+                        </div>
+                    </template>
+                </div>
+            </div>
+
+            <hr class="bar_horizontal">
+
+            <aside id="f_manager_file_properties" class="deselect_off">
+                <h3>FILE PROPERTIES</h3>
+                <div id="f_properties">
+                    <ul class="f_spec inactive">
+                        <li>
+                            <span class="prop">Name:</span><span id="file_name" class="attr">Brumbrum.fantute</span>
+                        </li>
+                        <li>
+                            <span class="prop">Type:</span><span id="file_type" class="attr">Brumbrum.fantute</span>
+                        </li>
+                        <li>
+                            <span class="prop">Size:</span><span id="file_size" class="attr">Brumbrum.fantute</span>
+                        </li>
+                    </ul>
+                    <p class="f_no_spec">Select a file</p>
+                </div>
+            </aside>
+
+            <hr class="bar_horizontal">
+
+        </section>
+
+        <footer id="main_footer">
+        <p>Images used on these websites are for illustrative purposes only and are not property of the author. <br> M. Cermak, 2017</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

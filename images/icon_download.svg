@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32px"
+   version="1.1"
+   viewBox="0 0 32 32"
+   width="32px"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon_download.svg">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1460"
+     inkscape:window-height="888"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="-15.79661"
+     inkscape:cy="16"
+     inkscape:window-x="10"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <desc
+     id="desc6" />
+  <defs
+     id="defs8" />
+  <g
+     id="Page-1"
+     transform="matrix(1,0,0,1.0322581,0.5,-2.193549)"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="icon-129-cloud-download"
+       style="fill:#157efb">
+      <path
+         d="M 15,27.25 11.75,24 11,24.75 15.5,29.25 20,24.75 19.25,24 16,27.25 16,16 l -1,0 0,11.25 0,0 z M 14,22 7.0028165,22 C 4.7979383,22 3,20.209139 3,18 3,16.10461 4.3246099,14.511736 6.1010092,14.102154 l 0,0 C 6.0346763,13.744882 6,13.37649 6,13 6,9.6862913 8.6862913,7 12,7 14.615442,7 16.840026,8.6734569 17.661424,11.008041 18.435776,10.377812 19.423767,10 20.5,10 c 2.358343,0 4.292964,1.814166 4.484438,4.123072 l 0,0 C 26.714492,14.563097 28,16.132016 28,18 c 0,2.204644 -1.792122,4 -4.002817,4 L 17,22 l 0,1 7.00056,0 C 26.761675,23 29,20.755805 29,18 29,15.903581 27.713291,14.108508 25.882863,13.36551 l 0,0 C 25.360022,10.872249 23.148655,9 20.5,9 19.637102,9 18.820616,9.1987158 18.093808,9.5528817 16.891182,7.4314488 14.612757,6 12,6 8.1340066,6 5,9.1340066 5,13 c 0,0.138151 0.004,0.275367 0.011897,0.411539 l 0,0 C 3.2396588,14.181608 2,15.949131 2,18 c 0,2.761424 2.2324942,5 4.9994399,5 L 14,23 l 0,-1 0,0 0,0 z"
+         id="cloud-download"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

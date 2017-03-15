@@ -1,0 +1,4 @@
+# Folders to be ignored
+
+# Trash files to be ignored
+devnotes.txt
