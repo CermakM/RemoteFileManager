@@ -1,6 +1,6 @@
 # Remote File Manager
 
-## Frontend template for web-based file and remote directory Manager
+## Frontend template for web-based file and remote directory manager
 
 #### This is an attempt to create a simple website template for a school project - remote file manager - which is to be connected to a server.
 #### Notes: 
