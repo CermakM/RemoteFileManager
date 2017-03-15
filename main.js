@@ -22,7 +22,7 @@ window.onload = function() {
 
     $("*").on("click", function (e) {
         e.stopPropagation();
-        var target = $(event.target);
+        var target = $(e.target);
         var deselect = !target.hasClass("deselect_off");
         var parents = target.parents();
         if(deselect) {
