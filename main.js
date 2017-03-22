@@ -38,6 +38,21 @@ window.onload = function() {
         }
     });
 
+    $( ".file.draggable").draggable({
+        helper: "clone",
+        appendTo: "body",
+        opacity: 0.35
+    });
+    $(".droppable").droppable({
+        accept: ".file",
+        tolerance: "touch",
+        drop: function (event, ui) {
+            var object = ui.draggable;
+            // Temporary solution: without deleting the file content
+            object.toggle();
+        }
+    });
+
 }; // end of onload
 
 $(window).resize(checkFManMenuPosition)
@@ -153,7 +168,6 @@ function loadFiles() {
     compensateWidth();
 }
 
-
 function compensateWidth()
 {
     if ($(window).width() < 450) {
@@ -177,7 +191,14 @@ function compensateWidth()
     }
 }
 
-function rename() {
+function rename_file() {
 
 }
 
+function drag_file() {
+
+}
+
+function drop_file() {
+
+}
